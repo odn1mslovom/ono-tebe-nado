@@ -1,20 +1,55 @@
-
 .header {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 92px 24px 96px;
 }
 
-.cover {
-
+.heeader_menu {
+  width: 387px;
 }
 
-.lots {
-
+.header__links-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: circle;
+  gap: 32px;
 }
 
-.about {
-
+.header__links-list-item_no-bullit {
+  list-style-type: none;
 }
 
-.footer {
+.header__link {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
 
+.header__links-list-item .header__address {
+  text-decoration: none;
+}
+
+.header__logo {
+  width: 148px;
+}
+
+.header__logo-image {
+  display: block;
+}
+
+.address a {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.header__address {
+  width: 240px;
 }
