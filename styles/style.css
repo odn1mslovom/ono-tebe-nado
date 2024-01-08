@@ -2,6 +2,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  justify-items: center;
   padding: 92px 24px 96px;
 }
 
@@ -41,11 +42,13 @@
 }
 
 .header__logo-image {
+  width: 148px;
+  height: 105px;
   display: block;
 }
 
 .address {
-  width: 240px;
+  max-width: 240px;
   color: #000;
   font-size: 18px;
   font-style: normal;
@@ -269,7 +272,7 @@
 
 .about__text {
   margin-top: 101px;
-  width: 693px;
+  max-width: 693px;
   color: #000;
   font-size: 20px;
   font-weight: 400;
